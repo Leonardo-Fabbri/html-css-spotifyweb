@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    overflow-x: hidden;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: #3d3d3d;
+    color: white;
+
+}
+/* proprietà nav */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 190px; 
+    height: calc(100% - 80px);
+    background-color: black;
+    color: lightgray; 
+}
+.blocco_uno {
+    width: 100%;
+    height: 170px;
+    padding-left: 8px;
+    overflow: hidden;
+}
+.main-nav .logo {
+    width: 125px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo-small {
+    display: none;
+}
+.main-nav ul {
+    margin-top: 20px;
+    height: 100px;
+}
+.blocco_secondo {
+  width: 100%;
+  height: calc( 100% - 170px - 70px );
+  padding-top: 20px;
+  overflow: hidden;
+  padding-left: 15px; 
+  padding-right: 5px;
+}
+ul li {
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 10px;
+  color: lightgray;
+  font-size: 10px;
+  overflow-y: auto;
+  max-height: 30%;
+}
+.lista {
+    width: 25px;
+    height: 20px;
+    margin-right: 7px;
+    display: inline-block;
+}
+.opzioni li p {
+    display: inline-block;
+}
+.main-nav h4 {
+   margin-left: 4px;
+}
+.playlist {
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+.playlist i {
+    font-size: 20px;
+    display: inline-block;  
+    /* margin-right: 4px; */
+}
+.playlist p {
+    display: inline-block;  
+    font-size: 13px;
+    /* margin-left:4px; */
+}
+.installa_App{
+ width: 180px;
+ height: 70px;
+ /* background-color: chartreuse; */
+ margin: auto;
+ padding-top: 4px;
+ position: fixed;
+ font-size: 15px;
+}
+.installa_App i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 4px;   
+}
+.installa_App p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 4px;   
+}
+.riga {
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: white;
+}
+/* fine proprietà nav */
+
+/* inizio proprietà main */
+.main-content {
+    width: calc(100% - 190px);
+    height: 100%;
+    margin-left: 190px; 
+    background-color: #141922
+    ;
+    color: white;
+    overflow-y: auto;
+}
+.Upgrade {
+    width: 100%;
+    height: 7vh;
+    background-color: lightgray;
+    position: relative;
+    background-color: #222224;
+}
+.botton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    background-color: #14192;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.testo {
+    width: 80%;
+    height: 20px;
+    /* background-color: lightgreen; */
+    margin: auto;
+    text-align: center;
+    color: #41454c;
+}
+.testo p {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.recently_played {
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+} 
+.album  {
+    width: calc(100% / 6 - 4px);
+    /* height: 300px; */
+    /* border: 1px solid black;  */
+    float: left;
+    margin-top: 20px;
+    margin-right: 4px;
+    margin-bottom: 145px;
+}
+
+.album img {
+    width: 100%;
+}
+.album p {
+    text-align: center;
+    margin-top: 5px;
+}
+.subtitle {
+    font-size: 15px;
+    color: gray;
+}
+ .due {
+     margin-bottom: 150px;
+}
+
+ .creato_per_J-Doe {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    padding: 12px;
+    padding-bottom: 10px;
+}
+ .ascolti_più_popolari {
+    width: 100%;
+    height: 450px; 
+    display: inline-block;
+    margin: auto;
+    padding: 12px;
+    padding-bottom: 10px;
+}
+
+ .ascolti_più_popolari img {
+     /* border: 1px solid black; */
+     border-radius: 50%;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dx {
+    width: 25%;
+    height: 80px;
+    /* background-color: chartreuse; */
+    padding: 5px;
+    padding-top: 15px;
+    padding-left: 5px;
+    position: relative;
+}
+.dx img {
+    width: 50px;
+    float: left; 
+}
+.dx .ascolto {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.top {
+    font-size: 17px;
+}
+.bottom {
+    font-size:13px ;
+}
+.dx .primo {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+ .dx .secondo {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+
+ }
+.centro {
+    width: 50%;
+    height: 80px;
+    background-color: cyan; 
+    padding: 20px;
+    position: relative;
+    
+}
+
+.esecuzione .riproduzione {
+    float: left;
+    margin-left: 20px;
+    /* color: red; */
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.play i {
+   font-size: 40px;
+   line-height: 20px;
+}
+.esecuzione {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    text-align: center;
+}
+.tempo {
+    position: relative;
+    
+}
+
+
+.minuto_primo {
+    position: absolute;
+    top:35px;
+    right: 97%;
+}
+.hr {
+    border: 2px solid black;
+    border-radius: 20px ;
+    width: 80%;
+    height: 7px;
+    position: absolute;
+    top: 45px;
+    left: 5%;
+    
+}
+.secondi {
+    width: 10%;
+    height: 2px;
+    background-color: white;
+}
+.minuto_secondo {
+    position: absolute;
+    top:35px;
+    left: 97%;
+}
+.sx {
+    width: 25%;
+    height: 80px;
+    /* background-color: blue; */
+    position: relative;
+}
+.sx_position {
+    width: 50%;
+    height: 80px;
+    /* background-color: chartreuse; */
+    position: relative;
+    font-size: 10px;
+}
+}
+.block-sx {
+    position: relative;
+    font-size: 13px;
+}
+.sx .humb {
+    position: absolute;
+    right: 70px;
+    top: 30px; 
+    font-size: 13px;
+   
+}
+.block_secondo-sx {
+    position: relative;
+}
+.sx .tv {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    font-size: 13px;
+    
+}
+.block_terzo-sx {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 13px;
+    float: left;
+}
+.bis {
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    left: 50%;
+    
+   
+   
+   
+}
+
+
+/* query */
+
+/* per telefonino (xs) */
+
+@media screen and (max-width: 600px) {
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 10%; 
+        height: calc(100% - 80px);
+        background-color: black;
+        color: lightgray; 
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-content {
+        width: 90%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .main-nav p , .playlist , h4 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo-small{
+        display: block;
+        margin-top: 10px;
+        /* width: 23px; */
+        margin-top: 10px;
+        margin-right: 2px;
+        
+    }
+}
+@media screen and (max-width: 600px) {
+    .opzioni li p {
+    display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .opzioni img {
+        width: 15px;
+        margin-left: 3px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .blocco_uno {
+        text-align: center; 
+        padding: 5px;
+        padding-right: 3px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .riga {
+    display: none;
+    
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .installa_App .smaller , .bigger {
+        display: block;
+        padding: 2.5;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .smaller {
+        font-size: 15px; 
+    }
+}
+@media screen and (max-width: 600px) {
+    .bigger {
+       font-size: 16px;
+    
+    }
+
+}
+@media screen and (max-width: 600px) {
+    
+    .recently_played {
+         width: 100%;
+         height: 450px; 
+         display: inline-block;
+         margin: auto;
+         margin-top: 20px;
+         padding: 10px;
+         margin-bottom: 400px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .album  {
+        width: calc(100% / 2 - 4px);
+        height: 100px;
+        /* background-color: cadetblue; */
+        /* border: 1px solid black; */
+        float: left;
+    }
+   
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .testo p {
+        font-size: 8px;
+        display: inline-block;
+        margin-right: 2px;
+    }
+   
+}
+/* fine modifiche per telefonino (xs) */
+
+
+
+
+/* modifiche solo per tablet */
+@media screen and (min-width: 601px) and (max-width:800px) {
+    .album  {
+        width: calc(100% / 4 - 4px);
+        height: 100px;
+        /* background-color: cadetblue;
+        border: 1px solid black; */
+        float: left;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    
+    .testo p {
+        font-size: 10px;
+        display: inline-block;
+        margin-right: 15px;
+       
+    }
+}
+@media screen and (min-width: 601px) and (max-width:800px) {
+    .creato_per_J-Doe {
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        padding: 12px;
+        padding-bottom: 10px;
+        margin-top: 150px;
+
+    }
+}
+/* fine modifiche solo per tablet */
+
+
+/* modifiche per tablet e pc */
+@media screen and (min-width: 601px) {
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:  190px;
+        height: calc(100% - 80px);
+        background-color: black;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+   .creato_per_J-Doe {
+        width: 100%;
+        display: inline-block;
+        /* margin-bottom: 200px; */
+        padding: 12px;
+        padding-bottom: 10px;
+
+   }
+
+}
+/* fine modifiche per tablet e pc */
+
+
+
+
+
