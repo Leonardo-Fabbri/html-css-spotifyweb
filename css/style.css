@@ -271,7 +271,7 @@ ul li {
 .centro {
     width: 50%;
     height: 80px;
-    /* background-color: cyan;  */
+    /* background-color: cyan;   */
     position: relative;
     
 }
@@ -323,9 +323,9 @@ ul li {
     border: 3px solid black;
     border-radius: 20px ;
     width: 83%;
-    height: 4px;
+    height: 2px;
     float: left; 
-    /* padding-top: 1px;
+   /* padding-top: 1px;
     padding-bottom: 1px;  */
     margin-top: 2%;
     margin-left: 1%;
@@ -495,7 +495,7 @@ ul li {
     }
    
 }
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .testo p {
         font-size: 8px;
         display: inline-block;
@@ -503,8 +503,200 @@ ul li {
     }
    
 }
-/* fine modifiche per telefonino (xs) */
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .dx .primo {
+        position: absolute;
+        top: 25px;
+        left: 84px;
+        font-size: 12px;
 
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .dx .secondo {
+        position: absolute;
+        top: 45px;
+        left: 84px ;
+        font-size: 12px;
+
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .dx img {
+        position: absolute;
+        top: 25px;
+        width: 30px;
+        float: left;
+    }
+} 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .top {
+        font-size: 13px;
+        margin-left: 25px;
+
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .bottom {
+        font-size: 9px;
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    .dx {
+        /* width: 30%; */
+        height: 80px;
+        /* background-color: chartreuse; */
+        padding: 2px;
+        padding-top: 15px;
+        padding-left: none;
+        position: relative;
+        margin-right: 2%;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+   .centro{
+        width: 150px; 
+        height: 50%;
+        /* background-color: cyan;  */
+        position: relative;
+        padding-top: 12px;
+   }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    .esecuzione {
+        height: 50%;
+        width: 100%;
+        margin: auto;
+        
+        position: relative;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+     
+    .barra-dascolto {
+        height: 50%;
+        width: 100%;
+        padding-right: none;
+        margin-bottom: 2%;
+   }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    .esecuzione .riproduzione {
+        float: left;
+        /* font-size: 11px; */
+        margin-left: 5%;
+        text-align: center;
+        vertical-align: middle;
+    }
+ 
+ }
+ @media screen and (min-width: 300px) and (max-width: 600px) {
+     
+    .play i {
+        font-size: 25px;
+        line-height:33%;
+        margin-right: 2px;
+        
+    }
+ }
+ @media screen and (min-width: 300px) and (max-width: 600px) {
+     
+    .esecuzione-due {
+        position: absolute;
+        height: 70%;
+        width: 145px;
+        top: 50px;
+        margin-bottom: 5px;
+        font-size: 10px;
+        margin-right: 5%;
+        padding-left: 5px;
+    }
+ }
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    .hr {
+        border: 3px solid black;
+        border-radius: 20px ;
+        width: 50%;
+        height: 4px;
+        float: left; 
+        padding-top: 0.5px;
+        padding-bottom: 0.5px; 
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .sx_position {
+        width: 100%;
+        height: 80px;
+        font-size: 10px;
+        padding: 0; 
+        padding-left: 0;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .sx {
+        width: 25%;
+        height: 80px;
+        position: relative;
+        margin-top: 25px;
+        margin-right: 11px;
+    }
+
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .sx_position .humb {
+        float: left; 
+        width: 10px;
+        margin-right:3px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    
+    .tv {
+       float: left;
+       width: 10px;
+       margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    
+    .audio {
+        float: left;
+        width: 10px;
+        margin-right:6px;
+        margin-left: 6px;
+
+    }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .sx i , .bis {
+        margin-right: 0%;
+        margin-top: 10%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .bis {
+        float: left;
+        width: 38%; 
+        height: 2px;
+        margin-left: 6px ;
+}
+}
+
+/* fine modifiche per telefonino (xs) */
 
 
 
